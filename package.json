@@ -1,0 +1,27 @@
+{
+  "name": "grunt-velocity-compiler",
+  "version": "0.0.2",
+  "description": "Grunt plugin to compile velocity templates to html in your project var velocity engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarobjtu/grunt-velocity-compiler"
+  },
+  "keywords": [
+    "velocity",
+    "grunt",
+    "task",
+    "compile",
+    "parse",
+    "template"
+  ],
+  "author": "tarobjtu (导演)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarobjtu/grunt-velocity-compiler/issues"
+  },
+  "homepage": "https://github.com/tarobjtu/grunt-velocity-compiler"
+}
