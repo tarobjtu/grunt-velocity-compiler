@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     // Iterate over all specified file groups.
     this.files.forEach(function(f) {
 
-      if (options.data && !grunt.file.exists(options.data)) {
+      if (typeof options.data == "string" && !grunt.file.exists(options.data)) {
         grunt.log.warn('Data file"' + options.data + '" not found.');
         return false;
       }
